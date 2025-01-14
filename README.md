@@ -131,4 +131,16 @@ O comando `continue` faz com que o laço pule a iteração atual e vá para a pr
 
 ---
 
-### 1.8 - Exemplos
+### 1.8 - Exemplos Avançados
+
+#### 1.8.1 - Laço Infinito com `break`
+Criamos um laço infinito com `while(true)` e interrompemos a execução com o comando `break` quando o contador atinge 5.
+
+#### 1.8.2 - Uso de `parallelStream`
+Utilizamos `parallelStream` para realizar operações de forma paralela sobre uma coleção de números. No exemplo, somamos os números pares utilizando processamento paralelo.
+
+#### 1.8.3 - Laço `for-each` com Manipulação Avançada de Coleções
+Usamos o `for-each` juntamente com `stream` para realizar manipulações avançadas, como a conversão de palavras para maiúsculas e exibição dos resultados.
+
+#### 1.8.4 - Laço `for` com Operações Complexas
+Neste exemplo, realizamos uma multiplicação e, dependendo do resultado, verificamos se o número é par ou ímpar, demonstrando como manipular operações dentro de um laço.
